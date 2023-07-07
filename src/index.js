@@ -21,9 +21,9 @@ connectToDB().then(() => {
     })
 });
 
-app.get('/', (req, res) => {
-   res.status(200).send('hello');
-});
+// app.get('/', (req, res) => {
+//    res.status(200).send('hello');
+// });
 
 
 app.use('/v1', v1Routes);
