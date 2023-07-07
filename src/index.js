@@ -22,7 +22,7 @@ connectToDB().then(() => {
 });
 
 app.get('/', (req, res) => {
-   res .send('hello');
+   res.status(200).send('hello');
 });
 
 
